@@ -78,7 +78,7 @@ flowchart LR
 | **Mídia & Processamento** | Pillow no backend (validação de assinatura/tamanho, correção EXIF, redimensionamento e re-encodamento seguro) + armazenamento em bucket privado servido sob controle da API |
 | **Notificações & E-mail** | Fila durável de Web Push (`pywebpush` / VAPID) com retentativa agendada em GitHub Actions + envio transacional via Resend |
 | **Infra & Entrega** | Render (Docker), Supabase (PostgreSQL + Storage privado), Cloudflare Pages + DNS, Zoho Mail |
-| **Identidade Visual** | Direção **3A (Encaixe em Giro)** autoral (`#0C100E`, `#D6EA78`, `#D3AA77`, `#F1F1E7`, `Barlow Condensed` & `Manrope`), com landing page oficial em [`garona.app`](https://garona.app) |
+| **Web & Marca** | Marca autoral e tipografia própria (`#0C100E`, `#D6EA78`, `Barlow Condensed` & `Manrope`), com landing page oficial em [`garona.app`](https://garona.app) |
 
 ---
 
@@ -105,7 +105,7 @@ flowchart LR
 
 ## Origem do Projeto
 
-O projeto começou em uma primeira versão web simples chamada **Garagem Digital** (Flask + MySQL), que validou a ideia inicial. A partir daí, toda a arquitetura, o modelo de dados, o backend e a interface foram reconstruídos do zero dando origem ao **Garona** — refletindo também a renomeação oficial deste repositório público (`garagem-digital` → `garona`).
+O projeto começou em uma primeira versão web simples chamada **Garagem Digital** (Flask + MySQL), que validou a ideia inicial. Ao perceber que a experiência precisava estar no celular de quem acompanha e documenta o carro no dia a dia, toda a arquitetura, o modelo de dados, o backend e a interface foram reconstruídos do zero dando origem ao **Garona** — refletindo também a renomeação oficial deste repositório público (`garagem-digital` → `garona`). Atualmente opera em **beta fechado** enquanto evolui rumo à publicação oficial nas lojas (**Google Play** e **App Store**).
 
 ---
 
